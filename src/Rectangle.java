@@ -5,14 +5,11 @@ public class Rectangle{
     private int id;
     private static int idGen = 1;
 
-    // Default constructor
     public Rectangle() {
         this.width = 1.0;
         this.height = 1.0;
         this.id = idGen++;
     }
-
-    // Constructor with parameters
     public Rectangle(double width, double height) {
         this();
         setWidth(width);
@@ -60,7 +57,7 @@ public class Rectangle{
 
     static void main() {
         Rectangle a = new Rectangle();
-        a.setHeight(-5);
+        a.setHeight(34);
         System.out.println(a.height);
     }
 }
