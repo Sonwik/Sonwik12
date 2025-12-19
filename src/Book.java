@@ -58,7 +58,6 @@ public class Book {
     }
 
     public void setYear(int year) {
-        // Просто проверяем, что год адекватный
         if (year < 1500 || year > 2025) {
             throw new IllegalArgumentException("Bad year");
         }
